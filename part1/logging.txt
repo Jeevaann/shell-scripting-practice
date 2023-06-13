@@ -1,0 +1,4 @@
+to create a log message -> logger -p local0.info "message"
+to create a log message which will display message on screen -> logger -s -p local0.info "message"
+to create a log message and attach a tag -> logger -t myserver -p local0.info "message"
+to crate a log message with process id -> logger -i -t myserver "message"
