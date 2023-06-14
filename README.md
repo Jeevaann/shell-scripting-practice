@@ -8,4 +8,5 @@ the commands include
 5. functions
 6. positional arguments
 7. exit status
-8. sed command
+8. wildcard expressions
+9. sed command
