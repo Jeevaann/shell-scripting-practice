@@ -1,0 +1,8 @@
+this is the first line
+This is a sample script
+I love my pet
+this is the last line
+I love my pet and my pet loves me. My pet loves biscuits
+hi, this is a error
+hello   
+this line contains error
