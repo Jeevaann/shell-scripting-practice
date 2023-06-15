@@ -10,3 +10,5 @@ the commands include
 7. exit status
 8. wildcard expressions
 9. sed command
+10. Networking commands
+11. Software management commands
