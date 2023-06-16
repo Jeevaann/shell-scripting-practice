@@ -1,0 +1,14 @@
+date -> shows the system current date
+date +'%d-%m-%Y'
+
+cal -> shows the current month calendar
+
+whoami -> shows you are logged in as which user
+
+who or w -> shows details about the user that you are logged in as
+
+finger -> display info about user
+
+users/id -> shows user info
+
+man -> manual Eg: man who -> will show how to use "who" command
