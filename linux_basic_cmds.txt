@@ -12,3 +12,31 @@ finger -> display info about user
 users/id -> shows user info
 
 man -> manual Eg: man who -> will show how to use "who" command
+
+ls -> lists the files and directories in the current working directory.
+
+ls -l -> long list. Shows items in alphabetical order
+
+ls -lt -> shows items based on timestamp. Recently created is on top
+
+ls -ltr -> shows items based on timestamp. Recently created is at bottom
+
+ls -a -> shows hidden files
+
+pwd -> shows the path of the present working directory
+
+cat -> eg: cat filename -> displays all the contents in a file
+
+less -> eg: less filename -> displays contents page by page
+
+more -> eg: more filename -> displays contents page by page
+
+head -> eg: head filename -> by default displays first 10 lines
+	eg: head -5 filename -> displays first 5 lines
+
+tail -> eg: tail filename -> by default displays last 10 lines
+	eg: tail -5 filename -> displays last 5 lines
+
+
+touch -> creates a 0 byte file. eg: touch jeevan -> creates jeevan file of size 0 bytes
+
