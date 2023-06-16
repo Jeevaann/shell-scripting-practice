@@ -38,3 +38,6 @@ sed 's/$/text_to_append/' filename
 sed -n '/pattern/p' filename
 #here p represents the printing of matched pattern
 # n is used to supress automatic printing of all lines
+
+sed -n '1,3p' filename
+# this will print lines 1 to 3 in the given file
