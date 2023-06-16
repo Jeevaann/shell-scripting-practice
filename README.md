@@ -12,3 +12,4 @@ the commands include
 9. sed command
 10. Networking commands
 11. Software management commands
+12. Managing Files and Directories
