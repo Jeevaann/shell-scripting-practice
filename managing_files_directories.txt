@@ -38,5 +38,11 @@ tail -> eg: tail filename -> by default displays last 10 lines
 	eg: tail -5 filename -> displays last 5 lines
 
 
-touch -> creates a 0 byte file. eg: touch jeevan -> creates jeevan file of size 0 bytes
+touch -> creates a 0 byte file. eg: touch practice -> creates practice file of size 0 bytes
+
+mkdir -> creates directory eg: mkdir shellPractice -> creates a directory called shellPractice
+
+rmdir -> used to remove empty directory. eg: rmdir shellPractice Note: Here shellPractice directory should be empty
+
+rm -rf -> used to remove non empty directory. eg: rm -rf shellPractice
 
