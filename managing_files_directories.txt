@@ -44,5 +44,44 @@ mkdir -> creates directory eg: mkdir shellPractice -> creates a directory called
 
 rmdir -> used to remove empty directory. eg: rmdir shellPractice Note: Here shellPractice directory should be empty
 
+tree -> shows the folder structure
+
 rm -rf -> used to remove non empty directory. eg: rm -rf shellPractice
 
+cp source destination
+Note: Here the destination file/folder need not be present before running copy command. If the destination file/folder is not present, the copy command will create destination file/folder on its own.
+
+cp file1 file2 -> copies the contents of file1 to file2. file2 contents will be overriden by file1 contents
+
+cp file1 directory1 -> It checks if file1 is already present in directory1. If not then it will create file1 under directory1 and copies the content. If file1 exists in directory1 then the contents of file1 will be overriden by the source file.
+
+cp -r dir1 dir2 -> It copies all the contents of dir1 to dir2
+
+mv source destination
+
+mv file1 file2 -> file1 contents moved to file2 and file1 is deleted.
+
+mv file1 dir1 -> file1 is moved to dir1/file1. file1 is deleted.
+
+mv dir1 dir2 -> dir1 is moved to dir2 and dir1 is deleted. If dir2 already exists in dir1 then dir2 inside dir1 should be deleted before executing this command.
+
+find
+find location -option filename
+here location is where you want to search the file
+option can be name, user, group
+eg: find / -name file1 -> checks for file1 in the root location
+find / -user username -> lists all files belongs to that user
+find / -group groupname -> lists all files belongs to that group
+
+diff
+diff file1 file2
+shows the difference between file1 and file2
+
+file
+file filename/folder -> shows the type of file/folder
+
+grep
+grep command is used to extract lines/files/directories that match the pattern.
+eg: grep this file1 -> this will output the lines containing this in file1
+ls -l | grep ^d -> this will output all the directories present in the current directory
+^ symbol means starting.
