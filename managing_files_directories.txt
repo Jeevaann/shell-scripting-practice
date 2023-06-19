@@ -85,3 +85,5 @@ grep command is used to extract lines/files/directories that match the pattern.
 eg: grep this file1 -> this will output the lines containing this in file1
 ls -l | grep ^d -> this will output all the directories present in the current directory
 ^ symbol means starting.
+grep -i permit file1 -> here -i means ignore case sensitive
+
