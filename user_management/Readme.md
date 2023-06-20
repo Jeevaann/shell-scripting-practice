@@ -17,4 +17,4 @@ There are 3 types of users.
 Under home directory there will be a folder for mark.
 Also there is an entry for mark in /etc/passwd.
 * usermod -G mark john -> this will add user john to user mark group.
-* to set password for a user -> password username
+* to set password for a user -> passwd username
