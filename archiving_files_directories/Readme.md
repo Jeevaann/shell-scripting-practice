@@ -22,4 +22,4 @@
 * Eg: tar -xvf dir1.tar. This will extract the dir1. Both dir1 and dir1.tar are present.
 
 Note: If there is a file like file.tar.gz then we should first unzip and then extract tar file. This can be done using single command.
-* tar -xczf file.tar.gz -> here z means unzip.
+* tar -xvzf file.tar.gz -> here z means unzip.
