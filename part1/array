@@ -1,0 +1,5 @@
+storing command output in an array: https://www.youtube.com/watch?v=9hCMOnS1joA&list=PL2qzCKTbjutJRM7K_hhNyvf8sfGCLklXw&index=24
+elements=$(ls) -> this will store the output of ls command into a variable named elements.
+list_array=($(ls)) -> this will store the output of ls command into list_array variable which is an array.
+echo ${list_array[@]} -> this will print all the elements in the list_array.
+echo ${#list_array[@]} -> this will print the length of the list_array.
