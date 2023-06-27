@@ -20,7 +20,11 @@ sed '/error/d' filename
 
 #to insert a line at the beginning of a file
 sed '1 i\text to insert' filename
-this will insert a text at the beginning of file
+this will insert a text at the beginning of file (before line 1)
+
+sed '1 a\text to insert' filename
+this will insert a text after line1.
+NOTE: "i" is used to insert before the specified pattern or line. "a" is used to insert after the specified pattern or line.
 
 # to delete the last line of a file using sed
 sed '$d' filename
