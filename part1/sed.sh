@@ -5,7 +5,7 @@
 \? -> 0 or 1
 . -> only one character
 \ -> escape character
-
+[] -> matches any single character in the list.
 #this script contains operations using sed command
 #to substitute the word "apple" with "orange" in a file using sed
 
@@ -35,6 +35,15 @@ NOTE: "i" is used to insert before the specified pattern or line. "a" is used to
 # to delete the last line of a file using sed
 sed '$d' filename
 #the $ indicates the line line
+
+sed -n '/p[ouy]t/p' filename
+# this will match the lines having either pot, put or pyt in the given file.
+
+sed -n '/p[a-d]t/p' filename
+# this will match the lines having either pat, pbt, pct, pdt in the given file.
+
+sed -n '/p[a-cr-ux-z]t/p' filename
+# this will match the lines having either pat, pbt, pct, prt, pst, ptt, put, pxt, pyt, pzt in the given file. 
 
 # to remove all leading whitespaces from each line in a file using sed 
 sed 's/^[ ]*//g' filename
