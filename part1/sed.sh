@@ -1,5 +1,11 @@
 #!/bin/bash
 
+* -> 0 or more
+\+ -> 1 or more
+\? -> 0 or 1
+. -> only one character
+\ -> escape character
+
 #this script contains operations using sed command
 #to substitute the word "apple" with "orange" in a file using sed
 
@@ -33,6 +39,12 @@ sed '$d' filename
 # to remove all leading whitespaces from each line in a file using sed 
 sed 's/^[ ]*//g' filename
 #this match the pattern (lines starting with white space) and trims the white spaces at start
+
+sed -n '/^put/p' filename
+# this will print the lines starting with put.
+
+sed -n '/put$/p' filename
+# this will print the lines ending with put.
 
 # to delete empty lines 
 sed '/^$/d' filename
