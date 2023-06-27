@@ -7,6 +7,7 @@
 \ -> escape character
 [] -> matches any single character in the list.
 {} -> matches for required number of repetitions.
+() -> this will search for 0 or more whole sequence.
 #this script contains operations using sed command
 #to substitute the word "apple" with "orange" in a file using sed
 
@@ -54,6 +55,12 @@ sed -n '/this\{2,3\}\b/p' filename
 
 sed -n 'this\{3,\}\b/p' filename
 # this will match the lines having this where s at the end is min 3 or more. 
+
+sed -n '/\(asdf\)\{2\}/p' filename
+# this will match the lines having asdfasdf.
+
+sed -n '/\s\(asdf\)\+/p' filename
+# this will match the lines having asdf, asdfasdf.....
 
 # to remove all leading whitespaces from each line in a file using sed 
 sed 's/^[ ]*//g' filename
