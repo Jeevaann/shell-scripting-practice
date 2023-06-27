@@ -34,6 +34,10 @@ sed '$d' filename
 sed 's/^[ ]*//g' filename
 #this match the pattern (lines starting with white space) and trims the white spaces at start
 
+# to delete empty lines 
+sed '/^$/d' filename
+# this will delete all the empty lines in the given file.
+
 #how to append text to the end of each line using sed
 sed 's/$/text_to_append/' filename
 #here $ represents the end of the line
