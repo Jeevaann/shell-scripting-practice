@@ -15,10 +15,9 @@ The commands include
 6. positional arguments
 7. exit status
 8. wildcard expressions
-9. sed command
-10. Networking commands
-11. Software management commands
-12. Managing Files and Directories
-13. sed command
-14. awk command
-15. cut command
+9. Networking commands
+10. Software management commands
+11. Managing Files and Directories
+12. sed command
+13. awk command
+14. cut command
