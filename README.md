@@ -1,5 +1,8 @@
 # Shell scripting usage
-Shell scripting is used to automate repetitive tasks, making them more efficient and productive. For example it is used to provision a vm with the required software packages, making the provisioning process consistent and repeatable. It is used to setup development environment for new team members reducing setup time and inconsistencies.
+Shell scripting is used to automate repetitive tasks, making them more efficient and productive.
+Some examples,
+* It is used to provision a vm with the required software packages, making the provisioning process consistent and repeatable.
+* It is used to setup development environment for new team members reducing setup time and inconsistencies.
 
 # shell-scripting-practice
 This is a repo which contains examples of basic and advanced shell commands.
