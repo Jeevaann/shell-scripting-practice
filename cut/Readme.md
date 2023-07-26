@@ -4,7 +4,7 @@
 * c stands for characters.
 * b stands for bytes.
 * f stands for fields.
-* By default, the cut command slices using space or tab. If we want to slice using other space or tab then we need to provide -d flag.
+* By default, the cut command slices using space or tab. If we want to slice using other than space or tab then we need to provide -d flag.
 * cut -d ':' -f 1 filename -> this will separate the contents of file using : as delimiter.
 * cut -b 3-7 filename -> this will retrieve from 3rd byte to 7th byte of each line in the given file.
 * cut -b 3,7 filename -> this will retrieve only 3rd and 7th byte of each line in the given file.
